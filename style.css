@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+    letter-spacing: 1px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Part 01 - Header */
+.header {
+    background: url(./images/desktop/image-header.jpg) no-repeat center center / cover;
+    height: 100vh;
+    width: auto;
+    color: #fff;
+    margin: auto;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.header .navbar h2 {
+    font-size: 2rem;
+}
+
+.header .navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+ul > li:last-of-type {
+    margin-right: 35px;
+}
+
+.btn-nav {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* take all the height there is, lord vh */
+    height: 100vh;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    /* with respect to root element - html, body */
+    letter-spacing: 1rem;
+    margin-top: 1.5em;
+}
+
+.header img {
+    width: 45px;
+    /* to bring the arrow to the centwe */
+    position: absolute;
+    top: 46%;
+    left: 49%;
+    opacity: 0.8;
+}
+
+
+

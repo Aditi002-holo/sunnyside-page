@@ -12,8 +12,6 @@
 html,
 body {
     font-family: 'Barlow', sans-serif;
-    /* font-family: 'Fraunces', serif; */
-    /* font-family: 'Barlow Condensed', sans-serif; */
     letter-spacing: 1px;
     max-width: 1440px;
     margin: 0 auto;
@@ -335,18 +333,3 @@ footer ul .icons {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* color: #fad400
-*/
